@@ -3,50 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet" />
     <title>Pousada Secreta</title>
 </head>
 <body>
   <div class="topo">
-    <div>
-        <div>
+    <div class="container-topo limitar-secao">
+        <div class="container-link-logotipo">
             <a href="index.html">Pousada <span>Secreta</span></a>
         </div>
-        <div>
+        <div class="container-links">
             <ul>
                 <li><a href="#sobre">SOBRE</a></li>
                 <li><a href="#rota">ROTA</a></li>
-                <li><a href="">QUARTOS</a></li>
+                <li><a href="#quarto.html">QUARTOS</a></li>
             </ul>
         </div>
     </div>
   </div> 
   <div class="conteudo">
-    <div>
-        <h1>Pousada Secreta</h1>
-        <p>A pousada reservada em Angra dos Reis</p>
-    </div>
-    <div>
-        <h1>SEJA BEM-VINDO (A)</h1>
-        <p>Relaxe em nossas acomodações e curta a melhor Angra dos Reis.</p>
-        <p>Temos quartos para solteiro, casal e falimia.</p>
-    </div>
-    <div>
-        <div>
-            <img src="" alt="">
-            <a href="">Quarto de Solteiro</a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a href="">Quarto de Casal</a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a href="">Quarto Familia</a>
+    <div class="banner">
+        <div class="container-titulo-site">
+            <h1>Pousada Secreta</h1>
+            <p>A pousada reservada em Angra dos Reis</p>
         </div>
     </div>
-    <div id="rota">
-        <h1>ROTA</h1>
-        <p>Veja como chegar até a pousada</p>
+
+    <div id="bem-vindo" class="secao-container limitar-secao">
+        <div class="container-descricao">
+            <h2>SEJA BEM-VINDO (A)</h2>
+            <p>Relaxe em nossas acomodações e curta a melhor Angra dos Reis.</p>
+            <p>Temos quartos para solteiro, casal e falimia.</p>
+        </div>
+        
+            <div class="container-quartos">
+                <div class="quarto">
+                    <img src="imagens/quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de Solteiro">
+                    <a href="quartos.html#solteiro"><p>Quarto de Solteiro</p></a>
+                </div>
+                <div class="quarto">
+                    <img src="imagens/quarto-casal1.jpg" alt="Quarto de Casal" title="Quarto de Casal">
+                    <a href="quartos.html#casal"><p>Quarto de Casal</p></a>
+                </div>
+                <div class="quarto">
+                    <img src="imagens/quarto-familia1.jpg" alt="Quarto Familia" title="Quarto Familia">
+                    <a href="quartos.html#familia"><p>Quarto Familia</p></a>
+                </div>
+            </div>
+        </div>
+
+    <div id="rota" class="secao-container">
+        <div class="container-descricao">
+            <h2>ROTA</h2>
+            <p>Veja como chegar até a pousada</p>
+        </div>
         <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14692.471710812997!2d-43.3641911!3d-22.9826906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1612707978931!5m2!1spt-BR!2sbr"
@@ -54,27 +65,51 @@
           </div>
     </div>
   </div> 
-  <div>
-    <h1>Sobre a Pousada</h1>
-    <p>Conheça um pouco sobre a pousada</p>
-  </div>
-  <div>
-    <div>
-        <h3>A Pousada</h3>
-        <p>A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
-    </div>
-    <div>
-        <h3>Nossos Quartos</h3>
-        <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para as refeições. Alem disso, as nunidades da Pousada Dev contam com ar-condicionado e guarda-roupas.</p>
-    </div>
-    <div>
-        <h3>Alimentação</h3>
-        <p>A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes fucionam 24 Hrs.</p>
-    </div>
-    <div>
-        <h3>Recepção</h3>
-        <p>Nossa recepção fica aberta 24 Hrs.</p>
-    </div>
+
+  <div id="sobre" class="secao-container">
+      <div class="container-descricao">
+        <h2>Sobre a Pousada</h2>
+        <p>Conheça um pouco sobre a pousada</p>
+      </div>
+      <div class="container-cards">
+        <div class="card">
+            <div class="container-card-descricao">
+                <h3>A Pousada</h3>
+                <p>A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+            </div>
+            <div class="container-card-img">
+                <img src="imagens/img1.jpg" alt="faixada" title="faixada">
+            </div>
+        </div>
+            <div class="card">
+                <div class="container-card-descricao">
+                    <h3>Nossos Quartos</h3>
+                    <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para as refeições. Alem disso, as nunidades da Pousada Dev contam com ar-condicionado e guarda-roupas.</p>
+                </div>
+                <div class="container-card-img">
+                    <img src="imagens/img2.jpg" alt="Quartos" title="Quartos">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Alimentação</h3>
+                    <p>A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes fucionam 24 Hrs.</p>
+                </div>
+                <div>
+                    <img src="imagens/img3.jpg" alt="Alimentação" title="Alimentação">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Recepção</h3>
+                    <p>Nossa recepção fica aberta 24 Hrs.</p>
+                </div>
+                <div>
+                    <img src="imagens/img5.jpg" alt="Recepção" title="Recepção">
+                </div>
+            </div>
+        
+        </div>
   </div>
   <div class="rodape">
     <div>
