@@ -126,3 +126,30 @@
     font-weight: bold;
     color: #3d3d3d;
 }
+
+.container-cards{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    margin: 15px;
+    
+
+}
+
+.container-card-descricao{
+width: 360px;
+height: 110px;
+gap: 25px;
+}
+
+.container-card-img img{
+    width: 100px;
+    height: 100px;
+}
+
