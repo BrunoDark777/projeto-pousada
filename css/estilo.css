@@ -38,6 +38,7 @@
     width: 30%;
     display: flex;
     flex-direction: row;
+    margin-right: 40px;
 }
 
 .container-links a{
@@ -151,5 +152,66 @@ gap: 25px;
 .container-card-img img{
     width: 100px;
     height: 100px;
+}
+
+.rodape{
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background-color: #49997d;;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.container-info h4{
+    width: 200px;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-left: 11px;
+}
+
+.card-rodape{
+    width: 50px;
+    padding: 20px;
+    flex: 1 0 300px;
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-rodape a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-rodape p{
+    margin-left: 10px;
+}
+
+.card-rodape img{
+    width: 40px;
+    height: 40px;
+}
+
+.container-copright{
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+    border-top: 1px solid #3b7863;
+}
+
+.container-copright a{
+    color: #fff;
+    text-decoration: none;
 }
 
